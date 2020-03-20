@@ -1,0 +1,61 @@
+body {
+  background-color: #ddd;
+}
+
+.btnSwipe {
+  background-color: #46a;
+  color: white;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  width: 200px;
+  height: 40px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.btnSwipe span {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btnSwipe::before {
+  content: '';
+  display: block;
+  background-color: #fff;
+  width: 0px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.centerSwipe::before,
+.skewSwipe::before {
+  left: 50%;
+}
+
+.skewSwipe {
+  overflow: hidden;
+}
+
+.skewSwipe::before {
+  transform: skewX(30deg);
+}
+
+.btnSwipe:hover::before {
+  width: 200px;
+  left: 0%;
+}
+
+.btnSwipe:hover span {
+  color: #46a;
+}

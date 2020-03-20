@@ -1,0 +1,37 @@
+body {
+  background-color: #349;
+  color: white;
+}
+a {
+  color: white;
+}
+.main-nav {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px auto;
+  width: 716px;
+}
+.main-nav li {
+  float: left;
+
+  margin-right: 4px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.main-nav li a {
+  text-decoration: none;
+  background-color: #45a;
+  display: block;
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  transition: all 0.5s;
+}
+.main-nav li a:hover {
+  background-color: #349;
+}
+.main-nav li:last-child {
+  margin-right: 0;
+}

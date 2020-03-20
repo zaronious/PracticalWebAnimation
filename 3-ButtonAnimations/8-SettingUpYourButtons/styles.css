@@ -1,0 +1,41 @@
+body {
+  background-color: #eee;
+}
+
+button {
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+  margin: 20px auto;
+}
+
+.btn {
+  font-size: 30px;
+  color: #bbb;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 3px rgb(220, 220, 220);
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn .btn-icon {
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+}
+
+.btn .btn-text {
+  position: absolute;
+  left: 75px;
+  top: 20px;
+}
