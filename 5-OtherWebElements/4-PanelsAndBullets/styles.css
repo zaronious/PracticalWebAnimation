@@ -1,0 +1,25 @@
+body {
+  font-size: 18px;
+  padding-top: 40px;
+}
+
+.panel {
+  color: #565;
+  position: relative;
+  top: -50px;
+  opacity: 0;
+}
+
+.panel h3 {
+  margin-top: 10px;
+}
+
+.fa-check-square {
+  color: green;
+}
+
+.panel li {
+  position: relative;
+  left: 50px;
+  opacity: 0;
+}

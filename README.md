@@ -6,7 +6,7 @@ This is a collection of the CSS and JQuery web animations done during the Tuts+ 
 
 Unfortunately, he did everything on Codepen, which I'm not a huge fan of and I wanted stuff stored locally so I can easily reference them.
 
-Therefore, while following the course I did them using full formatting (something Codepen doesn't do) using VS Code.
+Therefore, while following the course I did them using full formatting (something Codepen doesn't do) using VS Code. You might also notice that the links for the cdns are updated to newer versions and that the links are different (it seems bootstrap changed their links entirely).
 
 Issues:
 

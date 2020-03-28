@@ -18,10 +18,13 @@ input {
   border-bottom: 1px solid #888;
   font-size: 20px;
   width: 290px;
+  transition: all 1s;
 }
 
 input:focus {
   outline: none;
+  border-bottom-width: 4px;
+  border-color: #68f;
 }
 
 label {
@@ -30,4 +33,12 @@ label {
   left: 0;
   top: 0;
   opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
+.label-top {
+  visibility: visible;
+  opacity: 1;
+  top: -20px;
 }
